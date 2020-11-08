@@ -1,17 +1,4 @@
-<Query Kind="Statements">
-  <Connection>
-    <ID>65cd4f87-17e0-4541-97a3-8e3314c204c5</ID>
-    <NamingServiceVersion>2</NamingServiceVersion>
-    <Persist>true</Persist>
-    <Server>E490WIN10</Server>
-    <SqlSecurity>true</SqlSecurity>
-    <UserName>sa</UserName>
-    <Password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNrCU2YgPUS4GE4tDFlwSAAAAAACAAAAAAAQZgAAAAEAACAAAABG+s7A5HU9AvPHwhTF2JC/BgJ5kVGoYS6ex41tAr/75gAAAAAOgAAAAAIAACAAAACxh/6XfXgpbeTzDegnuHtRI8P/92ASStOVVFXCs//r3hAAAACGtkZBkzBfo3jWrNxuKXQyQAAAAAstYGB1W4W729sCfUWm/L0et7ZcxEq1i8sYLcq2XLp2yOAmlDxK2mugIoo1uS/SmjOfUNsdD9a+db8QCu3Kar4=</Password>
-    <Database>Northwind</Database>
-  </Connection>
-</Query>
-
-// File: 1760169.linq
+// File: LINQExercises2.linq
 // ID: 1760169
 // Name: Lê Anh Tài
 
