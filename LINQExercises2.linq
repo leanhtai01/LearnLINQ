@@ -15,24 +15,24 @@ fluentSyntax.Dump();
 
 // 2. Tìm tất cả các sản phẩm đã hết hàng (Product[ProID, ProName, Price, Quantity])
 var querySyntax =
-	from p in Product
+	from p in Products
 	where p.Quantity == 0
 	select new { p.ProID, p.ProName, p.Price, p.Quantity };
 querySyntax.Dump();
 
-var fluentSyntax = Product
+var fluentSyntax = Products
 	.Where(p => p.Quantity == 0)
 	.Select(p => new { p.ProID, p.ProName, p.Price, p.Quantity });
 fluentSyntax.Dump();
 
 // 3. Tìm tất cả các sản phẩm còn hàng và có giá < 100
 var querySyntax =
-	from p in Product
+	from p in Products
 	where p.Quantity > 0 && p.Price < 100
 	select new { p.ProID, p.ProName, p.Price, p.Quantity };
 querySyntax.Dump();
 
-var fluentSyntax = Product
+var fluentSyntax = Products
 	.Where(p => p.Quantity == 0 && p.Price < 100)
 	.Select(p => new { p.ProID, p.ProName, p.Price, p.Quantity });
 
